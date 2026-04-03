@@ -41,7 +41,7 @@ Estrutura do Projeto
 ```
 CadastroProdutos/
  └── src/
-      └── br/edu/produto/
+      └──——
            ├── Produto.java
            └── Principal.java
 ```
@@ -72,7 +72,6 @@ public class Produto {
     public void exibirDados() {
         System.out.println("Nome: " + nome);
         System.out.println("Preço: R$ " + preco);
-        System.out.println("----------------------");
     }
 
     public static void exibirQuantidadeTotal() {
